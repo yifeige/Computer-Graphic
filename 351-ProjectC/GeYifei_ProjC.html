@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yifei Ge</title>
+  </head>
+
+  <body onload="main()" >
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+<br>(Press HELP Button or "F1" or "H" for help!)
+
+    <p>
+
+      <button type="button" onclick="help()">HELP(H)</button>
+
+    </p>
+    <p>
+      <button type="button" onclick="headlight()">Head Light(Z)</button>
+      <button type="button" onclick="lightchange()">Phong/Blinn-Phong(X)</button>
+      <button type="button" onclick="shadem()">Gouraud/Phong(X)</button>
+    </p>
+    <p>
+      <button type="button" onclick="adjlight()">Adjustable Light</button>
+      <button type="button" onclick="reset()">Reset</button>
+    </p>
+    <p>
+      Set Ambient Color : R <input id='ar' size=2>  G <input id='ag' size=2>   B <input id='ab' size=2> <button type="button" onclick="submitA()">Submit</button> Color range form 0 to 1.0
+    </p>
+    <p>
+      Set Diffuse Color : R <input id='dr' size=2>  G <input id='dg' size=2>   B <input id='db' size=2> <button type="button" onclick="submitD()">Submit</button> Color range form 0 to 1.0
+    </p>
+    <p>
+      Set Specular Color: R <input id='sr' size=2>  G <input id='sg' size=2>   B <input id='sb' size=2> <button type="button" onclick="submitS()">Submit</button> Color range form 0 to 1.0
+    </p>
+    <p>
+      <button type="button" onclick="att(1)">ATT None</button>
+      <button type="button" onclick="att(2)">ATT 1/dist</button>
+      <button type="button" onclick="att(3)">ATT 1/dist^2</button>
+    </p>
+
+  
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-mod.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/cuon-matrix-quat.js"></script>
+    <script src="ProjC.js"></script>
+  </body>
+</html>
