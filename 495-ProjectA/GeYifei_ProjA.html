@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yifei Ge Project A</title>
+  </head>
+	<!--	Create the HTML5 'canvas' element in which we will run WebGL
+	-->
+  <body onload="main()">
+	    <canvas id="webgl" width="640" height="640">
+    	Please use a browser that supports "canvas"
+    </canvas> 
+    <p>
+
+	<!-- Make a 'div' element to hold changeable HTML made in our JavaScript file;
+		 (where? look at the end of 'BouncyBall02.js' at 
+			myKeyPress(), myKeyDown() and myKeyUp() fcns)
+	-->
+    <p>
+    		<div id='KeyResult'>  </div>
+      Set String Position : X <input id='ar' size=2 >  Y <input id='ag' size=2 >   Z <input id='ab' size=2 > <button type="button" onclick="submit()">Submit</button>
+    </p>
+    <p>
+    	Frame Rate:<input id='fr' size=4 value =100><button type="button" onclick="submitfr()">Submit</button>
+    </p>
+
+      Current Solver is <div id='solverresult'>  ImplicitEuler </div> 
+
+    <p>
+      Multiple Solver: <button type="button" onclick="Euler()">ImplicitEuler</button> <button type="button" onclick="MidPoint()">ImplicitMidPoint</button>
+       <button type="button" onclick="Adamas()">Adamas-Bashforth</button> <button type="button" onclick="EEuler()">ExplicitEuler</button> <button type="button" onclick="EMidPoint()">ExplicitMidPoint</button> <button type="button" onclick="Verlet()">Verlet</button>
+      </p>
+      <p>
+        User's Guide:<br>
+        Please use WSAD to move the camera in four directions, Q for higher and E for lower. <br>
+        Please use IKJL to for turning the camera UP DOWN LEFT RIGHT.<br>
+        Please use the Set String Position input area to relocate the string and press submit to watch it bounce.<br>
+        Please use Frame Rate input area and submit button to reset the frame rate. The highest effective frame rate differs from computer to computer.<br>
+        Please use the Multiple Solver buttons to set different solver types.<br>
+        Please use N to create a force field to attract free particles to a left point of the screen.<br>
+        Please use n to create a counter direction force field to create a boom like effect.
+
+      </p>
+
+		
+	</p>
+	<!--	Load in the JavaScript libraries supplied by our textbook 
+			(Matsuda et al., 2013 WebGL Programming Guide) that help us
+			with WebGL programming:
+	-->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+	<!-- We modified the library cuon-matrix.js from the book 
+		"WebGL Programming Guide"(K. Matsuda, 2013),
+		to add matrix-stack and quaternion capabilities, 
+		and renamed it cuon-matrix-quat.js -->
+    <script src="lib/cuon-matrix-quat.js"></script> 
+	<!--	Finally, load in our own JavaScript program file.
+	-->
+    <script src="projectA.js"></script>
+  </body>
+</html>
