@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yifei Ge</title>
+  </head>
+
+  <body onload="main()" >
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+<br>(Press HELP Button or "F1" or "H" for help!)
+<br>(The Diffuse OverHead Shading currently only Appears on the Sphere and the pyramid!!)
+<p>
+ <div id= CurAngleDisplay></div>
+  </p>
+    <p>
+      <button type="button" onclick="moreCCW()">Faster</button>
+      <button type="button" onclick="lessCCW()">Slower</button>
+      <button type="button" onclick="help()">HELP</button>
+    <! these commands create a push-button withlabels ++ CCW and -- CCW.
+      When users click the button, call the function name held in 'onclick'>
+    </p>
+    <p>
+       <button type="button" onclick="follow()">Follow</button>
+    </p>
+  <p>
+  <button type="button" onclick="planefly()">Flying-ariplane</button>
+ </p>
+<p>
+      User Control for the  frustum camera! 
+     <input type="button" value="Perspective/Frustum" onclick="setf()" id="button1">
+</p>
+  <p>
+    Current camera is 
+    <div id='PFResult'> Perspective </div>
+  </p>
+
+
+    <p>
+    <button type="button" onclick="frulp()"> &larr;+</button>
+    <button type="button" onclick="frurp()"> &rarr;+</button>
+    <button type="button" onclick="fruup()"> &uarr;+</button>
+    <button type="button" onclick="frudp()"> &darr;+</button>
+    <button type="button" onclick="frufp()"> far+</button>
+    <button type="button" onclick="frunp()"> near+</button>
+  </p>
+  <p>
+    <button type="button" onclick="frulm()"> &larr;-</button>
+    <button type="button" onclick="frurm()"> &rarr;-</button>
+    <button type="button" onclick="fruum()"> &uarr;-</button>
+    <button type="button" onclick="frudm()"> &darr;-</button>
+    <button type="button" onclick="frufm()"> far-</button>
+    <button type="button" onclick="frunm()"> near-</button>
+  </p>
+  
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-mod.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/cuon-matrix-quat.js"></script>
+    <script src="GeYifei_ProjB.js"></script>
+  </body>
+</html>
