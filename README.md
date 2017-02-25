@@ -11,8 +11,15 @@ Document Link: https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_P
    
 351 Project B: Human hand and camera control   
 Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html   
-Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html   
+Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.pdf   
      
 351 Project C: Human hand and Shading  
 Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_ProjC.html   
-Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_ProjC.html    
+Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_ProjC.pdf    
+   
+   
+495 Projects are more advanced and complex comparing to 351, covered two big topics, Particle System (Project A) and Ray Tracing (Project B).   
+
+495 Project A: Particle System with more than 5000 independent particles  
+Result link: https://yifeige.github.io/Computer-Graphic/495-ProjectA/GeYifei_ProjA.html     
+Document link: https://yifeige.github.io/Computer-Graphic/495-ProjectA/GeYifei_ProjA.pdf      
