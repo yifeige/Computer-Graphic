@@ -10,5 +10,9 @@ Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_Pro
 Document Link: https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_ProjA.pdf
    
 351 Project B: Human hand and camera control   
-Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html 
-Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html 
+Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html   
+Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectB/GeYifei_ProjB.html   
+     
+351 Project C: Human hand and Shading  
+Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_ProjC.html   
+Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_ProjC.html    
