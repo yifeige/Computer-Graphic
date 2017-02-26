@@ -6,7 +6,7 @@ The little basic math lib and some of the material parameters are from Professor
 #Index :     
 351 Projects are building a more and more complex system step by step. So there are plently of connections between the projects.
 351 Project A : Human-like Hand and Paper Plane     
-Result link: https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_ProjA.html   
+[Result link](https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_ProjA.html): https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_ProjA.html   
 Document Link: https://yifeige.github.io/Computer-Graphic/351-ProjectA/GeYifei_ProjA.pdf
    
 351 Project B: Human hand and camera control   
