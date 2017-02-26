@@ -23,3 +23,10 @@ Document link: https://yifeige.github.io/Computer-Graphic/351-ProjectC/GeYifei_P
 495 Project A: Particle System with more than 5000 independent particles  
 Result link: https://yifeige.github.io/Computer-Graphic/495-ProjectA/GeYifei_ProjA.html     
 Document link: https://yifeige.github.io/Computer-Graphic/495-ProjectA/GeYifei_ProjA.pdf      
+   
+
+495 Project B: Ray-Tracing with multiple light source on various materilas with preview    
+Due to the system operates 16 independent light source and 4*4 Jittered Super sample for antialiasing, the ray tracing process may take sevral minutes (based on different graph card, GTX960 takes about 5 minutes). So to save your time, I do suggest directly read the document, there are plenty of result images in there.     
+Result link: https://yifeige.github.io/Computer-Graphic/495-ProjectB/GeYifei_ProjB.html     
+Document link: https://yifeige.github.io/Computer-Graphic/495-ProjectB/GeYifei_ProjB.pdf      
+
